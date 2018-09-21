@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+version="2.5">
+
+<welcome-file-list>
+<welcome-file>index.jsp</welcome-file>
+<welcome-file>index.html</welcome-file>
+</welcome-file-list>
+
+<servlet>
+<servlet-name>jsp</servlet-name>
+<servlet-class>org.apache.jasper.servlet.JspServlet</servlet-class>
+<init-param>
+<param-name>welkom</param-name>
+<param-value>"Hoipiepeloi"</param-value>
+</init-param>
+</servlet>
+
+</web-app>
+
