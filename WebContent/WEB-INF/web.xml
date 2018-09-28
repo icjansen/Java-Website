@@ -13,12 +13,5 @@
     </init-param>
   </servlet>
   
-  <servlet>
-    <servlet-name>beans</servlet-name>
-    <servlet-class>StudentServlet</servlet-class>
-    <init-param>
-      <param-name>welkom student</param-name>
-      <url-pattern>/student</url-pattern>
-    </init-param>
-  </servlet>
+  
 </web-app>
