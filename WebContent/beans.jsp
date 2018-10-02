@@ -1,7 +1,7 @@
 
 <%@ include file="WEB-INF/jsps/header.jspf"%>
 
-      <jsp:useBean id = "students" class = "beans.StudentsBean"> 
+      <jsp:useBean id = "students" class = "beans.StudentBean"> 
          <jsp:setProperty name = "students" property = "firstName" value = "Zara"/>
          <jsp:setProperty name = "students" property = "lastName" value = "Ali"/>
          <jsp:setProperty name = "students" property = "age" value = "10"/>

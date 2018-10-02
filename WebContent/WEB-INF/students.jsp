@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<jsp:useBean id="student" class="beans.StudentsBean" scope="request"/>
+<jsp:useBean id="student" class="beans.StudentBean" scope="request"/>
 Student First Name:
 
 <jsp:getProperty name="student" property="firstName" />

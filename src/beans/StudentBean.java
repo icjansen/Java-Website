@@ -1,11 +1,11 @@
 package beans;
 
-public class StudentsBean implements java.io.Serializable {
+public class StudentBean implements java.io.Serializable {
     private String firstName = null;
     private String lastName = null;
     private int age = 0;
 
- public StudentsBean() {
+ public StudentBean() {
  }
  public String getFirstName(){
   return firstName;
