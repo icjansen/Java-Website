@@ -10,6 +10,7 @@
 <jsp:useBean id="student" class="beans.StudentBean" scope="request"/>
 Student First Name:
 
-<jsp:getProperty name="student" property="firstName" />
+${student.firstName}
+<!--<jsp:getProperty name="student" property="firstName" />-->
 </body>
 </html>
